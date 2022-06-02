@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Epilogue:wght@500;700&family=League+Spartan:wght@700&display=swap"
+    rel="stylesheet" />
+  <title>Frontend Mentor | Calculator app</title>
+  <link rel="stylesheet" href="./archivosCss/styles.css" />
+  <link rel="stylesheet" href="./archivosCss/theme1.css" id="link"/>
+  <link rel="stylesheet" href="./archivosCss/resetProCss.css" />
+
+  <script src="archivosJS/screen.js" type="module"></script>
+  <script src="archivosJS/themes.js" type="module"></script>
+  <script src="archivosJS/index.js" type="module" defer></script>
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+</head>
+
+<body>
+  <main class="main">
+
+    <div class="div-theme">
+      <h1 class="theme__h1">calc</h1>
+      <div class="theme__selects">
+        <h2 class="theme__h2">THEME</h2>
+      <div class="theme__background-inputs">
+        <label for="btn1" class="selects__label" >1</label>
+        <input type="radio" name="btn" id="btn1" value="theme1" class="selects__input" checked>
+        <label for="btn2" class="selects__label">2</label>
+        <input type="radio" name="btn" id="btn2" value="theme2" class="selects__input">
+        <label for="btn3" class="selects__label">3</label>
+        <input type="radio" name="btn" id="btn3" value="theme3" class="selects__input">
+      </div>
+    </div>
+    </div>
+
+      <div class="div-screen">
+        <div class="screen__result">0</div>
+      </div>
+
+      <div class="div-buttons" id="div-buttons">
+        <button class="button__btns button__nums" value="7" >7</button>
+        <button class="button__btns button__nums" value="8" >8</button>
+        <button class="button__btns button__nums" value="9" >9</button>
+        <button class="button__btns button__delete button__blue" value="DEL">DEL</button>
+
+        <button class="button__btns button__nums" value="4">4</button>
+        <button class="button__btns button__nums" value="5">5</button>
+        <button class="button__btns button__nums" value="6">6</button>
+        <button class="button__btns button__operator" value="+">+</button>
+
+        <button class="button__btns button__nums" value="1">1</button>
+        <button class="button__btns button__nums" value="2">2</button>
+        <button class="button__btns button__nums" value="3">3</button>
+        <button class="button__btns button__operator" value="-">-</button>
+        <button class="button__btns button__point"  value=".">.</button>
+        <button class="button__btns button__nums" value="0">0</button>
+        <button class="button__btns  button__operator" value="/">/</button>
+        <button class="button__btns button__operator" value="*">x</button>
+        <button class="button__btns button--big button__reset button__blue" value="RESET" id="button__7">RESET</button>
+        <button class="button__btns button--big button__result" value="=">=</button>
+      </div>
+  </main>
+
+</body>
+
+</html>

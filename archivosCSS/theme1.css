@@ -1,0 +1,25 @@
+:root{
+    --bg-main:hsl(222, 26%, 31%);
+    --bg-inputs:hsl(223, 31%, 20%);
+    --bg-screen:hsl(224, 36%, 15%);
+    --bg-keys: hsl(30, 25%, 89%);
+    --bg-button-blue: hsl(225, 21%, 49%);
+    --bg-button-result: hsl(6, 63%, 50%);
+    --shadow-button-blue: hsl(224, 28%, 35%);
+    --shadow-keys : hsl(35, 11%, 61%);
+    --shadow-button-result: hsl(25, 99%, 27%);
+    --text:hsl(60, 10%, 19%);
+    --white:rgb(255, 255, 255);
+    --dark-blue:hsl(60, 10%, 19%);
+}
+
+.button__btns{ 
+    color: var(--dark-blue);
+}
+
+.button__blue,
+.div-theme,
+.screen__result,
+.button__result{
+    color: var(--white);
+}

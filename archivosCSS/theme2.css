@@ -1,0 +1,14 @@
+:root{
+    --bg-main:hsl(0, 0%, 90%);
+    --bg-inputs:hsl(0, 5%, 81%);
+    --bg-screen:hsl(0, 0%, 93%);
+    --bg-keys: hsl(45, 7%, 89%);
+    --bg-button-blue: hsl(185, 42%, 37%);
+    --bg-button-result: hsl(25, 98%, 40%);
+    --shadow-button-blue:  hsl(185, 58%, 25%);
+    --shadow-keys : hsl(28, 16%, 65%);
+    --shadow-button-result: hsl(6, 70%, 34%);
+    --white:rgba(255, 255, 255, 0.925);
+    --text:hsl(60, 10%, 19%);
+    /* --text: hsl(60, 10%, 19%) */
+}
