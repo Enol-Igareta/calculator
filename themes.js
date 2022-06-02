@@ -14,11 +14,11 @@ const whichSelected = () => {
 selectInputs.forEach((el) =>
   el.addEventListener("click", () => {
     if (whichSelected() == "theme1") {
-      loadCss("./archivosCss/theme1.css");
+      loadCss("./theme1.css");
     } else if (whichSelected() == "theme2") {
-      loadCss("./archivosCss/theme2.css");
+      loadCss("./theme2.css");
     } else if (whichSelected() == "theme3") {
-      loadCss("./archivosCss/theme3.css");
+      loadCss("./theme3.css");
     }
   })
 );
