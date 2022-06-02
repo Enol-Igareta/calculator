@@ -20,6 +20,7 @@
 .button__blue,
 .div-theme,
 .screen__result,
-.button__result{
+.button__result,
+.selects__label{
     color: var(--white);
 }
